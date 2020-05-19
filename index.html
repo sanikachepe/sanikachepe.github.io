@@ -3,26 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>My Web Portfolio</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@531&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    
   </head>
   <body class="bg-light">
     <header>
       <!--Navigation-->
       <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
-          <h1 class="text-left text-light">My Portfolio.</h1>
+          <h1 class="text-left text-light">My  Web Portfolio.</h1>
 
           <!-- Toggler/collapsible Button -->
           <button
@@ -38,10 +36,10 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" data-smooth="#Home" href="#Home">Home</a>
+                <a class="nav-link" data-smooth="#About" href="#About">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-smooth="#About" href="#About">About Me</a>
+                <a class="nav-link" data-smooth="#Home" href="#Edu">Education</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-smooth="#Skills" href="#Skills">Skills</a>
@@ -58,57 +56,10 @@
       </nav>
     </header>
     <main>
-      <!--Background Image-->
-      <div class="parallax"></div>
+      <div class="container-fluid" id="heading"><h2 class="pt-2">Hey There! I am Sanika. I am a Junior Web Developer!</h2></div>
+    
+      <div class="container-fluid responsive"><img src="mypic.png" alt="My picture"></div>
 
-        <!--HOME-->
-        <div class="container-fluid">
-          <h1 class="text-center pt-3" id="Home">Home</h1>
-        </div>
-      <hr class="w-25 mx-auto" />
-      <!--Qualifications-->
-      <div class="container-fluid">
-        <h2>Educational Qualifications:</h2>
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <ul style="list-style-image: url('bullets.png');">
-              <li class="font-weight-bold">SSC</li>
-              <ul style="list-style-image:none">
-                <li>Board: ICSE</li>
-                <li>Institute: Ashoka Universal School, Wadala, Nashik.</li>
-                <li>Year of Passing: 2017</li>
-                <li>Grade: 97% (School Topper)</li>
-              </ul>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-sm-12">
-            <ul style="list-style-image: url('bullets.png');">
-              <li class="font-weight-bold">HSC</li>
-              <ul style="list-style-image:none">
-                <li>Board: HSC</li>
-                <li>Institute: Matoshri Junior College, Mhasrul, Nashik.</li>
-                <li>Year of Passing: 2019</li>
-                <li>Grade: 87%</li>
-              </ul>
-            </ul>
-          </div>
-
-          <div class="col-md-4 col-sm-12">
-            <ul style="list-style-image: url('bullets.png');">
-              <li class="font-weight-bold">B.E (Pursuing)</li>
-              <ul style="list-style-image:none">
-                <li>Degree: B.E Computer Science</li>
-                <li>
-                  Institute: Birla Institute of Technology and Sciences-Pilani,
-                  Goa.
-                </li>
-                <li>Expected Year of Passing: 2023</li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </div>
       <!--ABOUT ME-->
       <div class="container-fluid">
         <h2 class="text-center pt-3" id="About">About Me</h2>
@@ -137,6 +88,54 @@
         </div>
       </div>
     </div>
+
+            <!--EDU-->
+            <div class="container-fluid">
+              <h1 class="text-center pt-3" id="Edu">Education</h1>
+            </div>
+          <hr class="w-25 mx-auto" />
+          <!--Qualifications-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <ul style="list-style-image: url('bullets.png');">
+                  <li class="font-weight-bold">SSC</li>
+                  <ul style="list-style-image:none">
+                    <li>Board: ICSE</li>
+                    <li>Institute: Ashoka Universal School, Wadala, Nashik.</li>
+                    <li>Year of Passing: 2017</li>
+                    <li>Grade: 97% (School Topper)</li>
+                  </ul>
+                </ul>
+              </div>
+    
+              <div class="col-md-4 col-sm-12">
+                <ul style="list-style-image: url('bullets.png');">
+                  <li class="font-weight-bold">HSC</li>
+                  <ul style="list-style-image:none">
+                    <li>Board: HSC</li>
+                    <li>Institute: Matoshri Junior College, Mhasrul, Nashik.</li>
+                    <li>Year of Passing: 2019</li>
+                    <li>Grade: 87%</li>
+                  </ul>
+                </ul>
+              </div>
+    
+              <div class="col-md-4 col-sm-12">
+                <ul style="list-style-image: url('bullets.png');">
+                  <li class="font-weight-bold">B.E (Pursuing)</li>
+                  <ul style="list-style-image:none">
+                    <li>Degree: B.E Computer Science</li>
+                    <li>
+                      Institute: Birla Institute of Technology and Sciences-Pilani,
+                      Goa.
+                    </li>
+                    <li>Expected Year of Passing: 2023</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
         <!--SKILLS-->
       <div class="container-fluid">
         <h2 class="text-center pt-3" id="Skills">Skills</h2>
@@ -149,7 +148,8 @@
           <li>Bootstrap</li>
           <li>GIT</li>
           <li>AutoCAD</li>
-        </ul>-->
+        </ul>--> 
+        <p class="text-center">Here's a list of my technical skills.</p>
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <h4>C:</h4>
@@ -202,9 +202,9 @@
       <div class="col-md-6 col-sm-6">
         <h4>BOOTSTRAP:</h4>
         <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
-          aria-valuemin="0" aria-valuemax="100" style="width:20%">
-            20%
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50"
+          aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            50%
           </div>
         </div>
       </div>
@@ -212,9 +212,9 @@
       <div class="col-md-6 col-sm-6">
         <h4>GIT:</h4>
         <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="5"
-          aria-valuemin="0" aria-valuemax="100" style="width:5%">
-            5%
+          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10"
+          aria-valuemin="0" aria-valuemax="100" style="width:10%">
+            10%
           </div>
         </div>
       </div>
@@ -227,15 +227,15 @@
         <div class="col-md-6 col-sm-6">
           <h4>AutoCAD:</h4>
           <div class="progress">
-            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50"
-            aria-valuemin="0" aria-valuemax="100" style="width:50%">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60"
+            aria-valuemin="0" aria-valuemax="100" style="width:60%">
               50%
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    <!--Projects-->
       <div class="container-fluid">
         <h2 class="text-center pt-3" id="Projects">Projects</h2>
         <hr class="w-25 mx-auto" />
@@ -247,7 +247,7 @@
         <hr class="w-25 mx-auto" />
         <div class="row">
           <div class="container-fluid"> 
-            <p class="text-center">Email ID: sanikachepe.work@gmail.com</p>
+            <p class="text-center">Feel free to write me an Email at: sanikachepe.work@gmail.com</p>
           </div>
           
           <div class="container-fluid i-am-centered">
